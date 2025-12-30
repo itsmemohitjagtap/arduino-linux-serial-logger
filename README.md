@@ -50,10 +50,10 @@ stty -F /dev/ttyUSB0 9600 raw
 ---
 ##🧰 Hardware Used
 
-Atmega328P
-Ultrasonic Sensor (HC-SR04)
-USB Cable (for serial communicatoin)
-Ubuntu Linux (22.04 LTS)
+- Atmega328P
+- Ultrasonic Sensor (HC-SR04)
+- USB Cable (for serial communicatoin)
+- Ubuntu Linux (22.04 LTS)
 
 ---
 
