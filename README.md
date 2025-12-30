@@ -48,7 +48,7 @@ stty -F /dev/ttyUSB0 9600 raw
 ./serial_logger
 ````````````````````````
 ---
-##🧰 Hardware Used
+**## 🧰 Hardware Used**
 
 - Atmega328P
 - Ultrasonic Sensor (HC-SR04)
