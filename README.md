@@ -29,23 +29,6 @@ This project helped me understand **real-world OS–hardware interaction** inste
 
 ---
 
-## 📂 Project Structure
-linux-arduino-data-logger/
-├── arduino/
-│ └── ultrasonic_logger.ino
-│
-├── linux/
-│ └── serial_logger.c
-│
-├── logs/
-│ └── sample_object_log.csv
-│
-├── README.md
-└── .gitignore
-
-
----
-
 ## ⚙️ How It Works
 
 1. Ultrasonic sensor measures distance
@@ -64,7 +47,7 @@ gcc linux/serial_logger.c -o serial_logger
 stty -F /dev/ttyUSB0 9600 raw
 ./serial_logger
 ````````````````````````
-
+---
 ##🧰 Hardware Used
 
 Atmega328P
@@ -72,9 +55,12 @@ Ultrasonic Sensor (HC-SR04)
 USB Cable (for serial communicatoin)
 Ubuntu Linux (22.04 LTS)
 
+---
 
-**##🧑‍💻 Designed By**
-Mohit Jagtap 
-Electronics & Telecommunication Engineering,
-Dr. D. Y. Patil Institute of Engineering Management and Research,
-Akurdi, Pune
+## 🧑‍💻 Designed By
+
+- **Mohit Jagtap**
+- Electronics & Telecommunication Engineering
+- Dr. D. Y. Patil Institute of Engineering Management and Research
+- Akurdi, Pune
+
